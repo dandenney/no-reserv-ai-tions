@@ -14,8 +14,8 @@ const { city, description, heroImage, heroImageAlt, heroImageAttribution, heroIm
 		<BaseHead title={title} description={description} />
 	</head>
 
-	<body>
-		<main class="bg-stone-100 p-16">
+	<body class="bg-stone-100">
+		<main class="p-16">
 			<article class="max-w-2xl mx-auto xl:items-start xl:flex xl:gap-16 xl:max-w-7xl">
 				<div class="flex-shrink-0 -rotate-3 xl:sticky xl:top-16">
 					<figure class="bg-white pb-10 pt-4 px-4 shadow-md shadow-slate-10/20 " transition:name={`${title}-img`}>
@@ -26,7 +26,7 @@ const { city, description, heroImage, heroImageAlt, heroImageAttribution, heroIm
 						</ul>
 					</figure>
 					{heroImageAttribution && (
-						<p class="mt-8 text-sm text-slate-600">Photo credit: <a href={heroImageUrl}>{heroImageAttribution}</a></p>
+						<p class="mt-8 text-sm text-slate-600">Photo credit: <a class="hover:text-red-600" href={heroImageUrl}>{heroImageAttribution}</a></p>
 					)}
 				</div>
 				<div class="prose">
