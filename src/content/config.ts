@@ -5,13 +5,16 @@ const blog = defineCollection({
   schema: z.object({
     city: z.string(),
     country: z.string(),
+    heroImage: z.string().optional(),
+    heroImageAlt: z.string().optional(),
+    heroImageAttribution: z.string().optional(),
+    heroImageUrl: z.string().optional(),
     state: z.string().optional(),
     title: z.string(),
     description: z.string(),
     // Transform string to Date object
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    heroImage: z.string().optional(),
     tags: z.array(z.string()).optional(),
   }),
 });

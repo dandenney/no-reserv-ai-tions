@@ -13,7 +13,7 @@ const posts = (await getCollection('blog')).sort(
 
 <style>
 	.intro {
-		background-image: url('/ai-nthony-bourd-ai-n.png');
+		background-image: url('/ai-nthony-bourd-ai-n.webp');
 		background-position: calc(50% - 100px) top;
 		background-repeat: no-repeat;
 		background-size: auto 100%;
@@ -35,10 +35,10 @@ const posts = (await getCollection('blog')).sort(
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
-		<main>
+		<main class="bg-stone-100">
 			<section class="intro"></section>		
 			<section class="pb-24 pt-8">
-				<div class="mx-auto max-w-7xl px-6 lg:px-8">
+				<div class="mx-auto max-w-7xl px-4 lg:px-0">
 					<div class="mx-auto lg:max-w-7xl">
 						<h2 class="text-3xl font-display tracking-tight text-gray-900 sm:text-4xl">No ReservAItions</h2>
 						<p class="mt-2 text-lg leading-8 max-w-3xl text-gray-600"><a href="https://en.wikipedia.org/wiki/Anthony_Bourdain">Anthony Bourdain</a> had a glorious way of describing the human experience, especially when it revolved around food and drink. This project uses AI to write reviews of places, in his general style. No bot can compare to the real person, but <strong class="font-bold">AI</strong>nthony Bourd<strong class="font-bold">AI</strong>n sure can bring life to a description of a place or an experience.</p>
@@ -46,15 +46,17 @@ const posts = (await getCollection('blog')).sort(
 							<ul class="md:gap-8 md:grid md:grid-cols-2">
 								{posts.map((post) => (
 									<li class="relative isolate flex flex-col gap-8 mt-8 lg:flex-row">
-											<div class="bg-white flex-shrink-0 pb-6 pt-2 px-2 shadow-lg shadow-slate-10/20" transition:name={`${post.data.title}-img`}>
-												<img src={post.data.heroImage} alt="" class="h-40 w-40 object-cover" />
-												</div>
+											<figure class="bg-white flex-shrink-0 pb-6 pt-3 px-3 shadow-sm shadow-slate-10/20" transition:name={`${post.data.title}-img`}>
+												<a href={`/locations/${post.slug}/`}>
+													<img src={`/${post.data.heroImage}-thumb.webp`} alt={post.data.heroImageAlt} class="w-40 object-cover" />
+												</a>
+											</figure>
 											<div>
 												<div class="flex items-center gap-x-4 text-slate-500 text-xs">
 													{post.data.city}, {post.data.state}
 												</div>
 												<div class="group relative max-w-xl">
-													<h3 class="mt-3 text-2xl font-display leading-6 text-gray-900 uppercase md:text-4xl group-hover:text-gray-600">
+													<h3 class="mt-3 text-2xl font-display leading-6 text-red-700 uppercase md:text-4xl group-hover:text-gray-600">
 														<a href={`/locations/${post.slug}/`}>
 															<span class="absolute inset-0"></span>
 															{post.data.title}
