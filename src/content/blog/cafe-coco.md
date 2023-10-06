@@ -9,7 +9,7 @@ heroImage: "cafe-coco"
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g55229-d478225-Reviews-Cafe_Coco-Nashville_Davidson_County_Tennessee.html"
 pubDate: "Sep 30, 2023"
 state: "Tennessee"
-tags: [Quick Bites, American, Cafe]
+tags: [quick-bites, american, cafe]
 title: "Cafe Coco"
 ---
 

@@ -11,7 +11,7 @@ heroImageUrl: "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/e9/ba/fb/
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g34607-d4840154-Reviews-The_Getaway-St_Petersburg_Florida.html"
 pubDate: "Sep 15 2023"
 state: "Florida"
-tags: [American, Bar, Seafood]
+tags: [american, bar, seafood]
 title: "The Getaway"
 ---
 

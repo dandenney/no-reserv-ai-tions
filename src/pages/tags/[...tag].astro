@@ -1,0 +1,64 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import { type CollectionEntry, getCollection } from 'astro:content';
+import toTitleCase from '../../helpers/toTitleCase';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('blog');
+
+  const uniqueTags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
+
+
+  return uniqueTags.map((tag) => {
+    const filteredPosts = allPosts.filter((post) => post.data.tags.includes(tag));
+    return {
+      params: { tag },
+      props: { posts: filteredPosts },
+    };
+  });
+}
+
+const { tag } = Astro.params;
+const { posts } = Astro.props;
+
+---
+<!doctype html>
+<html class="bg-stone-100" lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<main>
+			<section class="mx-auto max-w-7xl pb-24 pt-8 px-4 lg:px-0 ">
+        <h1 class="text-3xl font-display tracking-tight text-gray-900 uppercase sm:text-9xl">{toTitleCase(tag)} Locations</h1>
+        <ul class="mt-8 md:gap-8 md:grid md:grid-cols-2">
+          {posts.map((post) => {
+            return(
+            <li class="relative isolate flex flex-col gap-8 items-start mt-16 max-w-xs mx-auto lg:flex-row  lg:max-w-none	lg:mx-0 xl:mt-0">
+              <figure class="bg-white flex-shrink-0 pb-5 pt-2 px-2 shadow-sm shadow-slate-10/20 w-44" transition:name={`${post.data.title}-img`}>
+                <a class="block" href={`/locations/${post.slug}/`}>
+                  <img src={`/${post.data.heroImage}-thumb.webp`} alt={post.data.heroImageAlt} />
+                </a>
+              </figure>
+              <div>
+                <div class="flex items-center gap-x-4 text-slate-500 text-xs">
+                  {post.data.city}, {post.data.state}
+                </div>
+                <div class="group relative max-w-xl">
+                  <h3 class="mt-3 text-2xl font-display leading-6 text-red-700 uppercase md:text-4xl group-hover:text-red-800">
+                    <a href={`/locations/${post.slug}/`}>
+                      <span class="absolute inset-0"></span>
+                      {post.data.title}
+                    </a>
+                  </h3>
+                  <p class="mt-2 text-sm leading-6 text-gray-600">{post.data.description}</p>
+                </div>
+              </div>
+            </li>
+          )})}
+        </ul>
+      </section>
+    </main>
+	</body>
+</html>

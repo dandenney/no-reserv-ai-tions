@@ -9,7 +9,7 @@ heroImage: "the-villager-tavern"
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g55229-d4981522-Reviews-The_Villager_Tavern-Nashville_Davidson_County_Tennessee.html"
 pubDate: "Sep 30, 2023"
 state: "Tennessee"
-tags: [Pub]
+tags: [pub]
 title: "The Villager Tavern"
 ---
 

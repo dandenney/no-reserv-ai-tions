@@ -9,7 +9,7 @@ heroImage: "lola"
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g55229-d23684237-Reviews-Lola-Nashville_Davidson_County_Tennessee.html"
 pubDate: "Sep 24, 2023"
 state: "Tennessee"
-tags: [Spanish]
+tags: [spanish]
 title: "Lola"
 ---
 

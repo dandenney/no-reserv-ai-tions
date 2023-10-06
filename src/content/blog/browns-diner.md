@@ -9,7 +9,7 @@ heroImage: "browns-diner"
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g55229-d478224-Reviews-Brown_s_Diner-Nashville_Davidson_County_Tennessee.html"
 pubDate: "Sep 30, 2023"
 state: "Tennessee"
-tags: [American, Diner]
+tags: [american, diner]
 title: "Brown's Diner"
 ---
 

@@ -9,7 +9,7 @@ heroImage: "copper-whisk-cafe"
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g45963-d12073937-Reviews-Copper_Whisk_Cafe-Las_Vegas_Nevada.html"
 pubDate: "Sep 20, 2023"
 state: "Nevada"
-tags: [American, Cafe, Diner]
+tags: [american, cafe, diner]
 title: "Copper Whisk Cafe"
 ---
 

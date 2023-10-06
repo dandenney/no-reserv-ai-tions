@@ -11,7 +11,7 @@ heroImageUrl: "https://www.google.com/maps/contrib/109150397320043444671"
 infoUrl: "https://www.google.com/maps/place/Regal+Hollywood+-+Nashville/@36.10602,-86.76213,15z/data=!4m2!3m1!1s0x0:0x36fc7e727768a815?sa=X&ved=2ahUKEwj-v9_touCBAxUDmWoFHWL6C0MQ_BJ6BAhiEAA&ved=2ahUKEwj-v9_touCBAxUDmWoFHWL6C0MQ_BJ6BAh_EAg"
 pubDate: "Oct 1, 2023"
 state: "Tennessee"
-tags: [Movie Theater]
+tags: [movie-theater]
 title: "Regal Hollywood "
 ---
 

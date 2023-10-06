@@ -11,7 +11,7 @@ heroImageUrl: "https://www.tripadvisor.com/Restaurant_Review-g34607-d9808691-Rev
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g34607-d9808691-Reviews-The_Lure-St_Petersburg_Florida.html"
 pubDate: "September 15, 2023"
 state: "Florida"
-tags: [Bar, Seafood, Sushi]
+tags: [bar, seafood, sushi]
 title: "The Lure"
 ---
 

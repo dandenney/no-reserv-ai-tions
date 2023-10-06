@@ -6,10 +6,10 @@ country: "United States"
 description: "Amidst downtown Vegas's pulsing energy, a sanctuary to carnivores and wine aficionados"
 heroAlt: "Photo of a steak, whipped potatoes, and wine"
 heroImage: "andiamo"
-infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g45963-d3869216-Reviews-Andiamo_Italian_Steakhouse-Las_Vegas_Nevada.html"
+infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g45963-d3869216-Reviews-Andiamo_italian_Steakhouse-Las_Vegas_Nevada.html"
 pubDate: "Sep 20, 2023"
 state: "Nevada"
-tags: [Italian, American, Steakhouse]
+tags: [italian, american, steakhouse]
 title: "Andiamo"
 ---
 
@@ -21,6 +21,6 @@ Accompanying this, the truffle whipped potatoes. Not just any side dish, they ar
 
 But what truly elevates this meal is the Tuscan blend. The rolling hills of Tuscany, with their sun-kissed vineyards, come alive in each glass. Notes of ripe berries, hints of leather and tobacco – it's a wine that's robust yet refined. Each pour is a silent toast to Italy's winemaking legacy.
 
-With each sip, as the flavors of the steak, truffle potatoes, and the wine dance on the palate, there's a momentary transport out of the neon maze of Vegas to the rustic charm of an Italian vineyard.
+With each sip, as the flavors of the steak, truffle potatoes, and the wine dance on the palate, there's a momentary transport out of the neon maze of Vegas to the rustic charm of an italian vineyard.
 
 At Andiamo in The D, it's not just a meal; it's an experience. An ode to the age-old pairing of steak and wine, executed with a flair that's quintessentially Vegas. Here's to the timeless classics and the places that serve them right. Salute!

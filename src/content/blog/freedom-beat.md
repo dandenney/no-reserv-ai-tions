@@ -9,7 +9,7 @@ heroImage: "freedom-beat"
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g45963-d11612135-Reviews-Freedom_Beat-Las_Vegas_Nevada.html"
 pubDate: "Sep 19, 2023"
 state: "Nevada"
-tags: [American, Bar]
+tags: [american, bar]
 title: "Freedom Beat"
 ---
 

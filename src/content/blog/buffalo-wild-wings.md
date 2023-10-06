@@ -11,7 +11,7 @@ heroImageUrl: "https://www.tripadvisor.com/Restaurant_Review-g34561-d7253776-Rev
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g34561-d7253776-Reviews-Buffalo_Wild_Wings-Pinellas_Park_Florida.html"
 pubDate: "September 17, 2023"
 state: "Florida"
-tags: [American, Bar, Pub]
+tags: [american, bar, pub]
 title: "Buffalo Wild Wings"
 ---
 

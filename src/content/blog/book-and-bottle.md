@@ -9,7 +9,7 @@ heroImage: "book-and-bottle"
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g34607-d20946290-Reviews-Book_Bottle-St_Petersburg_Florida.html"
 pubDate: "Sep 16 2023"
 state: "Florida"
-tags: [Bar, Coffee, Book Store]
+tags: [bar, coffee, book-store]
 title: "Book + Bottle"
 ---
 

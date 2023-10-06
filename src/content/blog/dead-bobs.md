@@ -11,7 +11,7 @@ heroImageUrl: "https://www.tripadvisor.com/Restaurant_Review-g34607-d7347281-Rev
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g34607-d7347281-Reviews-Dead_Bob_s-St_Petersburg_Florida.html"
 pubDate: "September 15, 2023"
 state: "Florida"
-tags: [American, Bar, Pub]
+tags: [american, bar, pub]
 title: "Dead Bob's Bar"
 ---
 

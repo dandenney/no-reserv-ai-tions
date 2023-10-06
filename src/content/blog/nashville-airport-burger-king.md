@@ -11,8 +11,8 @@ heroImageUrl: "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/e9/ba/fb/
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g34856-d10252887-Reviews-Cat_Cora_s_Kitchen-College_Park_Georgia.html"
 pubDate: "Sep 14 2023"
 state: "Tennessee"
-tags: [American, Fast Food]
-title: "Nashville Airport Burger King"
+tags: [american, fast-food]
+title: "Burger King"
 ---
 
 Ah, the Nashville Airport—a bustling hub where cowboy boots meet briefcases. But let's cut to the chase: the Whopper. It's not gourmet, and it doesn't pretend to be. A beef patty that's seen better days, slathered in mayonnaise and ketchup, a sad-looking lettuce leaf, a slice of tomato, and a couple rings of onion. It's the culinary equivalent of a one-night stand—satisfying in the moment, but you might have regrets later.

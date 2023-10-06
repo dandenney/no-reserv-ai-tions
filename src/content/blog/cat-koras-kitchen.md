@@ -9,8 +9,8 @@ heroImage: "cat-koras-kitchen-atlanta"
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g34856-d10252887-Reviews-Cat_Cora_s_Kitchen-College_Park_Georgia.html"
 pubDate: "Sep 15 2023"
 state: "Georgia"
-tags: [American, Bar]
-title: "Cat Cora’s Kitchen, Atlanta Airport"
+tags: [american, bar]
+title: "Cat Cora’s Kitchen"
 ---
 
 Here you are, at Cat Cora's Kitchen in the Atlanta Airport, a place that promises a culinary oasis amidst the drone of boarding announcements and the hustle of rolling luggage. You're in a space that at least nods to the idea that an airport meal can transcend the plastic and the pre-packaged.

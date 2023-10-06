@@ -11,7 +11,7 @@ heroImageUrl: "https://www.google.com/maps/contrib/101906663790053950545/photos/
 infoUrl: "https://whiskeywings.com/largo/"
 pubDate: "September 16, 2023"
 state: "Florida"
-tags: [American, Bar]
+tags: [american, bar]
 title: "Whiskey Wings, Largo"
 ---
 

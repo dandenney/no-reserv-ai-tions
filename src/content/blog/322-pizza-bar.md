@@ -11,7 +11,7 @@ heroImageUrl: "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/45/90/87/
 infoUrl: "https://www.tripadvisor.com/Restaurant_Review-g45963-d19307074-Reviews-322_Pizza_Bar-Las_Vegas_Nevada.html"
 pubDate: "Sep 19, 2023"
 state: "Nevada"
-tags: [Pizza, Italian]
+tags: [pizza, italian]
 title: "322 Pizza Bar"
 ---
 
