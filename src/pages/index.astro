@@ -36,16 +36,16 @@ const posts = (await getCollection('blog')).sort(
 		<main>
 			<section class="intro"></section>		
 			<section class="pb-24 pt-8">
-				<header class=" max-w-xs mx-auto xl:max-w-7xl xl:flex xl:gap-8">
-					<h2 class="text-3xl font-display tracking-tight text-gray-900 uppercase sm:text-8xl xl:flex-shrink-0">No Reserva<span class="text-gray-200">i</span>tions</h2>
-					<p class="mt-2 text-lg leading-8 max-w-3xl text-gray-600 xl:mt-0"><a href="https://en.wikipedia.org/wiki/Anthony_Bourdain">Anthony Bourdain</a> had a glorious way of describing the human experience, especially when it revolved around food and drink. This project uses AI to write reviews of places, in his general style. No bot can compare to the real person, but <strong class="font-bold">AI</strong>nthony Bourd<strong class="font-bold">AI</strong>n sure can bring life to a description of a place or an experience.</p>
+				<header class="px-8 lg:flex lg:gap-8 xl:mx-auto xl:max-w-7xl xl:px-0">
+					<h2 class="text-3xl font-display tracking-tight text-gray-900 uppercase sm:text-6xl lg:text-5xl lg:flex-shrink-0 xl:text-7xl">No Reserva<span class="text-gray-200">i</span>tions</h2>
+					<p class="mt-2 text-lg leading-8 max-w-3xl text-gray-600 lg:mt-0"><a href="https://en.wikipedia.org/wiki/Anthony_Bourdain">Anthony Bourdain</a> had a glorious way of describing the human experience, especially when it revolved around food and drink. This project uses AI to write reviews of places, in his general style. No bot can compare to the real person, but <strong class="font-bold">AI</strong>nthony Bourd<strong class="font-bold">AI</strong>n sure can bring life to a description of a place or an experience.</p>
 				</header>
-				<div class="space-y-20 lg:space-y-20">
+				<div class="space-y-20 lg:mt-8 lg:space-y-20">
 					<ul>
 						{posts.map((post) => (
 							<li>
-								<a class="block duration-300 group relative isolate mt-16 px-8 transition-all xl:mt-0 xl:py-12 hover:bg-stone-50" href={`/locations/${post.slug}/`}>
-									<div class="flex flex-col gap-4 items-start max-w-2xl mx-auto md:flex-row lg:gap-8 lg:max-w-7xl">
+								<a class="block duration-300 group relative isolate mt-16 px-8 transition-all sm:py-12 sm:mt-0  hover:bg-stone-50" href={`/locations/${post.slug}/`}>
+									<div class="flex flex-col gap-4 items-start max-w-2xl mx-auto sm:flex-row sm:gap-8 lg:max-w-7xl">
 										<figure class="bg-white duration-300 flex-shrink-0 pb-5 pt-2 px-2 shadow-sm shadow-slate-10/20 transition-transform w-52 group-hover:-rotate-3" transition:name={`${post.data.title}-img`}>
 											<img src={`/${post.data.heroImage}-thumb.webp`} alt={post.data.heroImageAlt} />
 										</figure>
@@ -58,7 +58,7 @@ const posts = (await getCollection('blog')).sort(
 													<span class="absolute inset-0"></span>
 													{post.data.title}
 												</h3>
-												<p class="duration-500 mt-2 xl:opacity-0 group-hover:opacity-100 text-gray-600 xl:text-xl transition-opacity	">{post.data.description}</p>
+												<p class="duration-500 mt-2 xl:opacity-0 group-hover:opacity-100 text-gray-600 xl:text-xl transition-opacity">{post.data.description}</p>
 											</div>
 										</div>
 									</div>
