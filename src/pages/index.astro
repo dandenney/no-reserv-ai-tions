@@ -51,7 +51,7 @@ const posts = (await getCollection('blog')).sort(
 										</figure>
 										<div>
 											<div class="flex items-center gap-x-4 text-slate-500 text-sm xl:text-base">
-												{post.data.city}, {post.data.state}
+												{post.data.city}, {post.data.country === 'United States' ? post.data.state : post.data.country}
 											</div>
 											<div class="group relative">
 												<h3 class="duration-300 mt-3 text-4xl font-display text-red-700 transition-color uppercase md:text-5xl group-hover:text-red-800 xl:text-8xl">
